@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Django
+*.log
+db.sqlite3
+/staticfiles/
+local_settings.py
+
+# Doctor suggestion uploads (images and PDFs)
+healthcare_symptom_analysis/doctor_suggestions/
+
+# Media uploads
+healthcare_symptom_analysis/media/
+
+# Environment variables (NEVER push these)
+.env
+.env.local
+.env.production
+*.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# PostgreSQL
+*.sql
+*.dump
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
