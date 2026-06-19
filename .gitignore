@@ -17,6 +17,18 @@ healthcare_symptom_analysis/doctor_suggestions/
 # Media uploads
 healthcare_symptom_analysis/media/
 
+# React / Node
+frontend_healthcare_symptoms/frontend/node_modules/
+frontend_healthcare_symptoms/frontend/build/
+frontend_healthcare_symptoms/frontend/.env
+
+# ML Service
+ml_services/__pycache__/
+ml_services/venv/
+ml_services/.venv/
+ml_services/faiss_index/
+ml_services/*.env
+
 # Environment variables (NEVER push these)
 .env
 .env.local
