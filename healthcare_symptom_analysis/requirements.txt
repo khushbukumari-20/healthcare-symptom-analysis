@@ -16,13 +16,3 @@ threadpoolctl==3.6.0
 typing_extensions==4.15.0
 tzdata==2026.2
 
-
-
-
-
-doctor suggestion related to research or anything 
-rag 
-bot based on role 
-updated password to login again 
-
-gpt , claude, agentic and melta claude , embedding system , blockchain , security system 
