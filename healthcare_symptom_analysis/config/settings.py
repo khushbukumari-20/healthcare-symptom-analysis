@@ -28,6 +28,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = os.getenv('SECRET_KEY')
 SECRET_KEY = os.environ["SECRET_KEY"]
 
+
+print("SECRET_KEY =", os.environ.get("SECRET_KEY"))
+print("All env keys:", list(os.environ.keys()))
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG') == 'True'
 
