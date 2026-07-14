@@ -39,7 +39,6 @@ jobs:
         with:
           name: python-app
           path: |
-            .
             ml_services/
             !ml_services/antenv/
 
@@ -75,4 +74,5 @@ jobs:
         with:
           app-name: 'healthcare-ml-services'
           slot-name: 'Production'
+          package: .
           
